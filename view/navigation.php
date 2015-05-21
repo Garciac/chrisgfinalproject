@@ -10,6 +10,10 @@ if (!authenticateUser()) {
 ?>
 <nav>
     <ul>
-        <li><a href="<?php echo $path . "post.php" ?>">Blog Post Form</a></li>
+        <a href="post.php" class="list-group-item list-group-item-success">Post Form</a>
+        
+    </ul>
+    <ul>
+       <a href="controller/logout-user.php" class="list-group-item list-group-item-danger">Logout</a>
     </ul>
 </nav>

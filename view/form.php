@@ -9,7 +9,7 @@ if (!authenticateUser()) {
 }
 ?>
 <!--These are necessary to create posts-->
-<h1>Create Blog Post</h1>
+<h1>Create A Post</h1>
 
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>

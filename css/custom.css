@@ -4,7 +4,25 @@
         font-size: 2em;
     }
     p {
-        font-size: 1.2em;
-        
+        font-size: 1.2em;  
+        color: white;
     }
+
 }
+
+.jumbotron{
+    background-image: url('http://www.rainbowkits.com/Xtreme/signs/auto-photos/BuySell-Trade.jpg');
+    background-size: contain;
+}
+body {
+    background-image: url("http://thetechnologicalcitizen.com/wp-content/uploads/2010/02/Future-Choices.jpg");
+    background-size: cover;
+}
+
+/* Start http://www.cursors-4u.com */ 
+body, a:hover 
+{cursor: url(http://cur.cursors-4u.net/cursors/cur-10/cur969.ani),
+     url(http://cur.cursors-4u.net/cursors/cur-10/cur969.png), progress !important;
+    }
+/* End http://www.cursors-4u.com */
+

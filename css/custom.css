@@ -5,9 +5,12 @@
     }
     p {
         font-size: 1.2em;  
-        color: white;
     }
+    
+}
 
+h1{
+    color: white;
 }
 
 .jumbotron{
@@ -15,8 +18,7 @@
     background-size: contain;
 }
 body {
-    background-image: url("http://thetechnologicalcitizen.com/wp-content/uploads/2010/02/Future-Choices.jpg");
-    background-size: cover;
+    background-color: yellowgreen;
 }
 
 /* Start http://www.cursors-4u.com */ 

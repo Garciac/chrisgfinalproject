@@ -18,11 +18,6 @@ if (!authenticateUser()) {
     </div>       
 
     <div>
-        <label for="post">Phone Number</label>
-        <textarea name="post"></textarea>
-    </div>    
-    
-    <div>
         <label for="post">Post: </label>
         <textarea name="post"></textarea>
     </div>

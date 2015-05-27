@@ -41,53 +41,10 @@ and open the template in the editor.
         </div>
         <!--jumbotron -->
         <div class="jumbotron">
-            <center><h1>Chrislist</h1>
+            <center><h2>Chrislist</h2>
                 <p>Welcome to Chrislist. You can buy, trade, or sell your items here.</p>
         </div>
       <iframe src="http://free.timeanddate.com/clock/i4omu9eg/n137/tt0/tw0/tm1/tb4" frameborder="0" width="89" height="34"></iframe>
    
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="img-responsive img-responsive" src="images/AppAcademy.png" alt="App Academy">
-                                    <div class="carousel-caption">
-                                        <h3>App Academy</h3>
-                                        <p>This program is teaching me how to make websites and video games</p>
-                                    </div>
-                                </div>
-                                <!-- pic for phs carousel -->
-                                <div class="item">
-                                    <img class="img-responsive img-responsive" src="images/dog.png" alt="CSS">
-                                    <div class="carousel-caption">
-                                        <h3>PHS</h3>
-                                        <p>This school is where I am currently attending.</p>
-                                    </div>
-                                </div>
-                                <!-- Pic for website carousel -->
-                                <div class="item">
-                                    <img src="images/website.png" alt="websites">
-                                    <div class="carousel-caption">
-                                        <h3>Websites</h3>
-                                        <p>I'm currently making websites and learning code.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Controls -->
-                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
     </body>
 </html>

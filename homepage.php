@@ -12,6 +12,8 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="css/custom.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <title>Chrislist</title>
     </head>
     <body>
@@ -58,15 +60,15 @@ and open the template in the editor.
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img class="img-responsive img-responsive" src="images/instructionstoregister.jpg" alt="HTML">
+                    <img class="img-responsive img-responsive" src="images/register.png" alt="Register">
                     <div class="carousel-caption">
-                        <h3>HTML</h3>
-                        <p>HTML or HyperText Markup Language is the standard markup language used to create web pages.</p>
+                        <h3>How to register</h3>
+                        <p>Click on Register.</p>
                     </div>
                 </div>
                 <!-- 2nd photo for carousel -->
                 <div class="item">
-                    <img class="img-responsive img-responsive" src="images/instructionstoregister2.jpg" alt="CSS">
+                    <img class="img-responsive img-responsive" src="images/register.png" alt="CSS">
                     <div class="carousel-caption">
                         <h3>CSS</h3>
                         <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. </p>

@@ -37,8 +37,8 @@ body, a:hover
      url(http://cur.cursors-4u.net/cursors/cur-10/cur969.png), progress !important;
 }
 
-/* carousel margin */
-.carousel-inner > .item > img{
-    width:640px;
-    height:360px;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
 }

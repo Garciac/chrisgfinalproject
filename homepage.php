@@ -15,12 +15,11 @@ and open the template in the editor.
         <title>Chrislist</title>
     </head>
     <body>
-        <!-- navbar -->
+        <!-- navbar to navigate the pages -->
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="container">
                 <a href="Index.html" class="navbar-brand">Chrislist</a>
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -33,7 +32,6 @@ and open the template in the editor.
                         <li><a href="index.php">Posts</a></li>
                         <li><a href="login.php">Login</a></li>
                         <li><a href="register.php">Register</a></li>
-                        <li><a href="controller/logout-user.php">Logout</a></li>
                     </ul>
 
                 </div>

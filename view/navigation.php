@@ -7,6 +7,7 @@ if (!authenticateUser()) {
     header("Location: " . $path . "index.php");
     die();
 }
+//when logged in, they can logout or create a post
 ?>
 <nav>
     <ul>

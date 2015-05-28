@@ -11,6 +11,7 @@ class Database {
     public $error;
 
     public function __construct($host, $username, $password, $database) {
+        
 //database for host,username,password, and database
         $this->host = $host;
         $this->username = $username;
@@ -26,6 +27,7 @@ class Database {
         }
 
         $exists = $this->connection->select_db($database);
+        
 //database settings and alerts
         if (!$exists) {
             $query = $this->connection->query("CREATE DATABASE $database");

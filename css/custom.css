@@ -1,3 +1,4 @@
+/* settings for jumbotron */
 .jumbotron {
     padding: 0.0em 0.0em;
     h1 {
@@ -9,28 +10,32 @@
 
 }
 
+/* <h2> color change */
 h2{
     color: white;
 }
 
+/* <p> color change */
 p{
     color: white;
 }
 
+/* jumbotron background image */
 .jumbotron{
     background-image: url('http://www.rainbowkits.com/Xtreme/signs/auto-photos/BuySell-Trade.jpg');
     background-size: contain;
 }
+
+/* background for body*/
 body {
     background-color: #2aabd2;
 }
 
-/* Start http://www.cursors-4u.com */ 
+/* cursor for pages */
 body, a:hover 
 {cursor: url(http://cur.cursors-4u.net/cursors/cur-10/cur969.ani),
      url(http://cur.cursors-4u.net/cursors/cur-10/cur969.png), progress !important;
 }
-/* End http://www.cursors-4u.com */
 
 /* carousel margin */
 .carousel-inner > .item > img{

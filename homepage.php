@@ -39,14 +39,59 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        
+
         <!--jumbotron -->
         <div class="jumbotron">
             <center><h2>Chrislist</h2>
                 <p>Welcome to Chrislist. You can buy, trade, or sell your items here.</p>
         </div>
-        
-   <iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
+
+        <!-- time and date -->
+        <iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+        <img class="img-responsive img-responsive" src="images/instructionstoregister.jpg" alt="HTML">
+      <div class="carousel-caption">
+          <h3>HTML</h3>
+          <p>HTML or HyperText Markup Language is the standard markup language used to create web pages.</p>
+      </div>
+    </div>
+      <!-- 2nd photo for carousel -->
+    <div class="item">
+        <img class="img-responsive img-responsive" src="images/instructionstoregister2.jpg" alt="CSS">
+      <div class="carousel-caption">
+          <h3>CSS</h3>
+          <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. </p>
+      </div>
+    </div>
+      <!-- 3rd photo for carousel -->
+    <div class="item">
+        <img src="images/instructionstoregister3.jpg" alt="Bootstrap">
+      <div class="carousel-caption">
+          <h3>Bootstrap</h3>
+          <p>Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+   </a>
+      </div>
 
     </body>
 </html>

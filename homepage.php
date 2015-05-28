@@ -29,7 +29,7 @@ and open the template in the editor.
                 <div class="collapse navbar-collapse navHeaderCollapse">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="homepage.php">Homepage</a></li>
+                        <li><a href="homepage.php">Home page</a></li>
                         <li><a href="index.php">Posts</a></li>
                         <li><a href="login.php">Login</a></li>
                         <li><a href="register.php">Register</a></li>
@@ -40,7 +40,13 @@ and open the template in the editor.
             </div>
         </div>
         
-<iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
+        <!--jumbotron -->
+        <div class="jumbotron">
+            <center><h2>Chrislist</h2>
+                <p>Welcome to Chrislist. You can buy, trade, or sell your items here.</p>
+        </div>
+        
+   <iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
 
     </body>
 </html>

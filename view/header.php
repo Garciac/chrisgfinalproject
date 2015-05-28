@@ -39,8 +39,8 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        
-<iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
+
+        <iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
 
 
     </body>

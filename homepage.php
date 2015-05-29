@@ -14,6 +14,20 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.carousel').each(function() {
+                    $(this).carousel({
+                        pause: true,
+                        interval: false
+                    });
+                });
+            });
+            ​
+        </script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js"></script>
         <title>Chrislist</title>
     </head>
     <body>
@@ -49,15 +63,16 @@ and open the template in the editor.
         <!-- time and date -->
         <iframe src="http://free.timeanddate.com/clock/i4oy8u06/n137/tc2aabd2/tt0/tw0/tm1/th2/tb4" frameborder="0" width="89" height="34"></iframe>
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- 1st introduction-->
+        <h2>How To Create a Post.</h2>
+        <div id="carousel-1" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
             </ol>
             <!-- 1ST instructions -->
-            <h2>How to register.</h2>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -84,60 +99,74 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <h2>How To Create a Post.</h2>
         <!-- 2ND instructions -->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <h2>How To Create a Post.</h2>
+        <div id="carousel-2" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-2" data-slide-to="1"></li>
+                <li data-target="#carousel-2" data-slide-to="2"></li>
+                <li data-target="#carousel-2" data-slide-to="3"></li>
+                <li data-target="#carousel-2" data-slide-to="4"></li>
             </ol>
-            <h2>How to register.</h2>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="images/register.png" alt="Register">
+                    <img src="images/post1.png" alt="Post">
                     <div class="carousel-caption">
                         <h3>Step One</h3>
-                        <p>To register, click on the Register Button on the top right corner.</p>
+                        <p>Click on the login button.</p>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="images/register01.png" alt="Register">
+                    <img src="images/post2.png" alt="Post">
                     <div class="carousel-caption">
                         <h3>Step Two</h3>
-                        <p>Next, you need to provide a valid E-Mail. Then, create a username and password. When you finished providing an E-Mail, Username, and Password, click on the Submit Button. </p>
+                        <p> Login then click the Submit button. </p>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="images/register02.png" alt="Register">
+                    <img src="images/post3.png" alt="Post">
                     <div class="carousel-caption">
                         <h3>Step Three</h3>
-                        <p>Finally, login with your Username and Password and click the Submit Button. You are now officially logged in.</p>
+                        <p>After logging in, click on the Post Form button. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/post4.png" alt="Post">
+                    <div class="carousel-caption">
+                        <h3>Step Four</h3>
+                        <p>After clicking on the Post Form button, create a post. When you finished creating a post, click the Submit button.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/post5.png" alt="Post">
+                    <div class="carousel-caption">
+                        <h3>Step Five</h3>
+                        <p>Finally, your post will show on the Posts page.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <a class="right carousel-control" href="#carousel-2" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
